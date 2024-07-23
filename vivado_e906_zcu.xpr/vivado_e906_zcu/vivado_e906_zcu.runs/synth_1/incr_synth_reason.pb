@@ -1,0 +1,1 @@
+ÂdDesign change found in an area of the design that prevents previous synthesis information being used

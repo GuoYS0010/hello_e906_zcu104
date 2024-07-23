@@ -1,0 +1,1008 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jul 11 18:55:38 2024
+# Process ID: 48600
+# Current directory: E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper.vdi
+# Journal file: E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1\vivado.jou
+# Running On: DESKTOP-1H1RL0L, OS: Windows, CPU Frequency: 3494 MHz, CPU Physical cores: 14, Host memory: 68535 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/im_always_learning/E906_zcu/EGRET_cfg'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/im_always_learning/E906_zcu/opene906-main/E906_RTL_FACTORY/gen_rtl'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/xilinx/Vivado/2022.2/data/ip'.
+Command: link_design -top design_1_wrapper -part xczu7ev-ffvc1156-2-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.843 . Memory (MB): peak = 1851.656 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2956 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'design_1_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'design_1_i/system_ila_0/inst/ila_lib/inst'
+Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_0/inst/ila_lib/inst'
+Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc] for cell 'design_1_i/proc_sys_reset_1/U0'
+Finished Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc] for cell 'design_1_i/proc_sys_reset_1/U0'
+Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc] for cell 'design_1_i/proc_sys_reset_1/U0'
+Finished Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc] for cell 'design_1_i/proc_sys_reset_1/U0'
+Parsing XDC File [E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.srcs/constrs_1/new/1.xdc]
+Finished Parsing XDC File [E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.srcs/constrs_1/new/1.xdc]
+Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [e:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2110.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 809 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 196 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 84 instances
+  RAM512X1S => RAM512X1S (MUXF7(x4), MUXF8(x2), MUXF9, RAMS64E1(x8)): 528 instances
+
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 2110.871 ; gain = 1497.559
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2127.902 ; gain = 17.031
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1a09950f9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 2461.648 ; gain = 333.746
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-469] Using cached IP synthesis design for IP xilinx.com:ip:xsdbm:3.0, cache-ID = 524edc4c20c0f68c.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 2842.066 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1cbcf7831
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 2842.066 ; gain = 29.520
+
+Phase 2 Retarget
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/GEN_CMD_QUEUE.cmd_queue/m_payload_i[130]_i_1 into driver instance design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/GEN_CMD_QUEUE.cmd_queue/s_ready_i_i_2, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/si_register_slice_inst/aw.aw_pipe/USE_RTL_FIFO.data_srl_reg[31][13]_srl32_i_1 into driver instance design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/si_register_slice_inst/aw.aw_pipe/m_axi_awaddr[2]_INST_0_i_1, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/GEN_CMD_QUEUE.cmd_queue/m_payload_i[130]_i_1 into driver instance design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.read_addr_inst/GEN_CMD_QUEUE.cmd_queue/s_ready_i_i_2, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/si_register_slice_inst/aw.aw_pipe/USE_RTL_FIFO.data_srl_reg[31][13]_srl32_i_1 into driver instance design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/si_register_slice_inst/aw.aw_pipe/m_axi_awaddr[2]_INST_0_i_1, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_0/s01_mmu/inst/register_slice_inst/ar.ar_pipe/m_payload_i[32]_i_1__0 into driver instance design_1_i/axi_interconnect_0/s01_mmu/inst/register_slice_inst/ar.ar_pipe/m_payload_i[32]_i_2__0, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_0/s01_mmu/inst/register_slice_inst/aw.aw_pipe/m_payload_i[32]_i_1 into driver instance design_1_i/axi_interconnect_0/s01_mmu/inst/register_slice_inst/aw.aw_pipe/m_payload_i[32]_i_2, which resulted in an inversion of 8 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar.ar_pipe/axaddr_offset_r[1]_i_1__0 into driver instance design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar.ar_pipe/axaddr_offset_r[1]_i_2__0, which resulted in an inversion of 7 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw.aw_pipe/axaddr_offset_r[1]_i_1 into driver instance design_1_i/axi_interconnect_1/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw.aw_pipe/axaddr_offset_r[1]_i_2, which resulted in an inversion of 7 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_ahb_fifo/x_counter_entry0/hready_mask_i_1 into driver instance design_1_i/soc_e906_0/inst/x_ahb_fifo/x_counter_entry0/mem_reg_bram_0_i_16, which resulted in an inversion of 136 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[0]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[0]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[1]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[1]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[2]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[2]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[3]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[3]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[4]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[4]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[5]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[5]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[6]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[6]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[7]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_gpio/x_gpio_apbif/int_s1[7]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_1/interrupt_i_1__3 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_1/interrupt_i_2__3, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_2/interrupt_i_1__4 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_2/interrupt_i_2__4, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_3/interrupt_i_1__5 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_3/interrupt_i_2__5, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_4/interrupt_i_1__6 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_nmi_wake/timer_4/interrupt_i_2__6, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_1/interrupt_i_1__7 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_1/interrupt_i_2__7, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_2/interrupt_i_1__8 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_2/interrupt_i_2__8, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_3/interrupt_i_1__9 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_3/interrupt_i_2__9, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_4/interrupt_i_1__10 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_stimer/timer_4/interrupt_i_2__10, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_1/interrupt_i_1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_1/interrupt_i_2, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_2/interrupt_i_1__0 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_2/interrupt_i_2__0, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_3/interrupt_i_1__1 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_3/interrupt_i_2__1, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_4/interrupt_i_1__2 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer/timer_4/interrupt_i_2__2, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_1/interrupt_i_1__11 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_1/interrupt_i_2__11, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_2/interrupt_i_1__12 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_2/interrupt_i_2__12, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_3/interrupt_i_1__13 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_3/interrupt_i_2__13, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_4/interrupt_i_1__14 into driver instance design_1_i/soc_e906_0/inst/x_apb/x_timer1/timer_4/interrupt_i_2__14, which resulted in an inversion of 65 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_fpu_top/x_pa_falu_top/x_pa_fadd_single/ex3_e_adjust[0]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_fpu_top/x_pa_falu_top/x_pa_fadd_single/ex3_e_adjust[0]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_fpu_top/x_pa_fdsu_top/x_pa_fdsu_ctrl/frac_sub1_rst1_carry_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_fpu_top/i___193, which resulted in an inversion of 62 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/dp_ex1_ag_imm[2]_i_6 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___44_i_2__0, which resulted in an inversion of 80 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/i___12_i_4 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___44_i_1__0, which resulted in an inversion of 73 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/i___14_i_4 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___66_i_3__0, which resulted in an inversion of 82 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/i___16_i_3 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___90_i_1, which resulted in an inversion of 19 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/i___17_i_3 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___80_i_1__0, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/i___19_i_3 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___215_i_1, which resulted in an inversion of 62 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/i___20_i_3 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___94_i_1__0, which resulted in an inversion of 58 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/i___24_i_3 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_ibuf/x_pa_ifu_ibuf_pop_entry0/i___36_i_1, which resulted in an inversion of 83 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/ex2_act_sub_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/i___6_i_3, which resulted in an inversion of 29 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/ex2_expnt_2[0]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/i___659_i_1, which resulted in an inversion of 6 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/ex2_special_sel[6]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/i___242_i_1, which resulted in an inversion of 34 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/ex2_src2_expnt_not_zero_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_id_fp/ex2_src2_expnt_not_zero_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_id_pred/x_pa_ifu_bht/x_pa_ifu_bht_array/x_pa_spsram_512x16/x_pa_f_spsram_512x16/addr_holding[8]_i_1__1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_id_pred/x_pa_ifu_bht/x_pa_ifu_bht_array/x_pa_spsram_512x16/x_pa_f_spsram_512x16/RAM_DIN_VEC[15].ram_instance/addr_holding[8]_i_3, which resulted in an inversion of 18 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_pcgen/pcgen_addr[8]_i_5 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_pcgen/my_iahbl_pad_haddr[2]_INST_0_i_3, which resulted in an inversion of 22 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_vec/fdsu_ex3_id_srt_skip_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_fpu_top/i___161, which resulted in an inversion of 13 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_iu_top/x_pa_iu_div/x_pa_iu_div_kernel/div_suber_c1_010_carry__3_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_iu_top/x_pa_iu_div/x_pa_iu_div_kernel/div_suber_c1_110__0_carry__3_i_7, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_iu_top/x_pa_iu_div/x_pa_iu_div_kernel/div_suber_c1_100_carry__3_i_2 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_iu_top/x_pa_iu_div/x_pa_iu_div_kernel/div_suber_c1_110__0_carry__2_i_24, which resulted in an inversion of 7 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_ag/dt_addr_chk_last_ff_i_2 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_ag/i___60_i_2, which resulted in an inversion of 8 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_icc/addr_holding[7]_i_1__0 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_icc/i___321_i_1, which resulted in an inversion of 51 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_lfb/addr_holding[7]_i_1__1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_lfb/addr_holding[7]_i_3, which resulted in an inversion of 10 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_ncb/x_pa_lsu_wb_entry_0/ncb_ld_inst_i_2 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_ncb/x_pa_lsu_wb_entry_0/i___66_i_2, which resulted in an inversion of 63 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_rdl/dca_sel_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_rdl/dca_type[1]_i_4, which resulted in an inversion of 33 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_stb/x_pa_lsu_stb_entry_0/dca_id[1]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_stb/x_pa_lsu_stb_entry_0/i___156_i_1, which resulted in an inversion of 33 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_stb/x_pa_lsu_stb_entry_1/dca_id[0]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_stb/x_pa_lsu_stb_entry_1/i___157_i_1, which resulted in an inversion of 33 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_sahbl_top/x_pa_ahbl_if/haddr_latch[0]_i_1 into driver instance design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_sahbl_top/x_pa_ahbl_if/haddr_latch[0]_i_2, which resulted in an inversion of 8 pins
+INFO: [Opt 31-1287] Pulled Inverter design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/xsdb_memory_read_inst/current_state[0]_i_1 into driver instance design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/xsdb_memory_read_inst/read_addr[11]_i_5, which resulted in an inversion of 16 pins
+INFO: [Opt 31-138] Pushed 31 inverter(s) to 9942 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell design_1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 1d936d3ac
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 2842.066 ; gain = 29.520
+INFO: [Opt 31-389] Phase Retarget created 26 cells and removed 385 cells
+INFO: [Opt 31-1021] In phase Retarget, 69 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 3 Constant propagation | Checksum: 20b03abea
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 2842.066 ; gain = 29.520
+INFO: [Opt 31-389] Phase Constant propagation created 14 cells and removed 34 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 53 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Sweep
+Phase 4 Sweep | Checksum: 190eae39d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:23 . Memory (MB): peak = 2842.066 ; gain = 29.520
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 46 cells
+INFO: [Opt 31-1021] In phase Sweep, 1312 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 5 BUFG optimization | Checksum: 190eae39d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:24 . Memory (MB): peak = 2842.066 ; gain = 29.520
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 190eae39d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:24 . Memory (MB): peak = 2842.066 ; gain = 29.520
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 7 Post Processing Netlist
+Phase 7 Post Processing Netlist | Checksum: 190eae39d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:24 . Memory (MB): peak = 2842.066 ; gain = 29.520
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 61 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              26  |             385  |                                             69  |
+|  Constant propagation         |              14  |              34  |                                             53  |
+|  Sweep                        |               0  |              46  |                                           1312  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             61  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 2842.066 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 197e62475
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:24 . Memory (MB): peak = 2842.066 ; gain = 29.520
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 58 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 26 newly gated: 0 Total Ports: 116
+Ending PowerOpt Patch Enables Task | Checksum: 1899042af
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.312 . Memory (MB): peak = 3746.922 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1899042af
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 3746.922 ; gain = 904.855
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1899042af
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3746.922 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 3746.922 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 13cafd720
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3746.922 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+132 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:48 . Memory (MB): peak = 3746.922 ; gain = 1636.051
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3746.922 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 3746.922 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+Command: report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 3746.922 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: f4151cda
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 3746.922 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3746.922 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: a693893d
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: bac25cba
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: bac25cba
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 4377.922 ; gain = 631.000
+Phase 1 Placer Initialization | Checksum: bac25cba
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 15be12448
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:43 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 10d9aad18
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:44 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.1.1.3 PBP: Discrete Incremental
+Phase 2.1.1.3 PBP: Discrete Incremental | Checksum: 148dfbdc7
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:44 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.1.1.4 PBP: Compute Congestion
+Phase 2.1.1.4 PBP: Compute Congestion | Checksum: 148dfbdc7
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:44 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.1.1.5 PBP: Macro Placement
+Phase 2.1.1.5 PBP: Macro Placement | Checksum: 145d43b0d
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:45 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.1.1.6 PBP: UpdateTiming
+Phase 2.1.1.6 PBP: UpdateTiming | Checksum: 15428aa87
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:46 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.1.1.7 PBP: Add part constraints
+Phase 2.1.1.7 PBP: Add part constraints | Checksum: 15428aa87
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:46 . Memory (MB): peak = 4377.922 ; gain = 631.000
+Phase 2.1.1 Partition Driven Placement | Checksum: 15428aa87
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:46 . Memory (MB): peak = 4377.922 ; gain = 631.000
+Phase 2.1 Floorplanning | Checksum: 22506704b
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:46 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 22506704b
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:46 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1687654f0
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:47 . Memory (MB): peak = 4377.922 ; gain = 631.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 2104691dc
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:01:31 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 14 LUTNM shape to break, 1468 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 11, two critical 3, total 14, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 550 nets or LUTs. Breaked 14 LUTs, combined 536 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 88 candidate driver sets for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 26 nets.  Re-placed 215 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 26 nets or cells. Created 0 new cell, deleted 17 existing cells and moved 215 existing cells
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.305 . Memory (MB): peak = 4602.887 ; gain = 0.000
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 4602.887 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |           14  |            536  |                   550  |           0  |           1  |  00:00:01  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |             17  |                    26  |           0  |           1  |  00:00:02  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           14  |            553  |                   576  |           0  |          10  |  00:00:03  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1fc59e4fb
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:01:37 . Memory (MB): peak = 4602.887 ; gain = 855.965
+Phase 2.4 Global Placement Core | Checksum: 121a8a065
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:01:43 . Memory (MB): peak = 4602.887 ; gain = 855.965
+Phase 2 Global Placement | Checksum: 121a8a065
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:01:43 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: ee2f5c74
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:01:45 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 14123cff6
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:01:49 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: cffc5baf
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:55 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 3.3.2 Flow Legalize Slice Clusters
+Phase 3.3.2 Flow Legalize Slice Clusters | Checksum: 15842680a
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:55 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 3.3.3 Slice Area Swap
+
+Phase 3.3.3.1 Slice Area Swap Initial
+Phase 3.3.3.1 Slice Area Swap Initial | Checksum: 1379ddf4b
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:02:01 . Memory (MB): peak = 4602.887 ; gain = 855.965
+Phase 3.3.3 Slice Area Swap | Checksum: 1379ddf4b
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:02:01 . Memory (MB): peak = 4602.887 ; gain = 855.965
+Phase 3.3 Small Shape DP | Checksum: 1697af671
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:02:07 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 1a9e2fb1d
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:02:10 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 1be6959fe
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:02:10 . Memory (MB): peak = 4602.887 ; gain = 855.965
+Phase 3 Detail Placement | Checksum: 1be6959fe
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:02:10 . Memory (MB): peak = 4602.887 ; gain = 855.965
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 138f4db04
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.715 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: d78d21c0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4615.500 ; gain = 0.000
+INFO: [Place 46-35] Processed net design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_clkrst_top/x_pa_rst_top/cpurst_b, inserted BUFG to drive 5500 loads.
+INFO: [Place 46-35] Processed net design_1_i/proc_sys_reset_1/U0/peripheral_aresetn[0], inserted BUFG to drive 2216 loads.
+INFO: [Place 46-45] Replicated bufg driver design_1_i/proc_sys_reset_1/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N_replica
+INFO: [Place 46-35] Processed net design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_vec/FSM_onehot_vec_cur_state_reg[6]_0[0], inserted BUFG to drive 1830 loads.
+INFO: [Place 46-45] Replicated bufg driver design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_ifu_top/x_pa_ifu_vec/FSM_onehot_vec_cur_state_reg[1]_replica
+INFO: [Place 46-35] Processed net design_1_i/axi2rst_0/inst/u_EGRET_CFG_axi/egret_rstn, inserted BUFG to drive 1824 loads.
+INFO: [Place 46-45] Replicated bufg driver design_1_i/axi2rst_0/inst/u_EGRET_CFG_axi/slv_reg0_reg[0]_replica
+INFO: [Place 46-56] BUFG insertion identified 4 candidate nets. Inserted BUFG: 4, Replicated BUFG Driver: 3, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 15346a85c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 4615.500 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1bdf1d282
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:02:27 . Memory (MB): peak = 4615.500 ; gain = 868.578
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.715. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 16ad5ae29
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:02:27 . Memory (MB): peak = 4615.500 ; gain = 868.578
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:02:27 . Memory (MB): peak = 4615.500 ; gain = 868.578
+Phase 4.1 Post Commit Optimization | Checksum: 16ad5ae29
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:02:27 . Memory (MB): peak = 4615.500 ; gain = 868.578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.288 . Memory (MB): peak = 4629.109 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1961d96c8
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:02:31 . Memory (MB): peak = 4629.109 ; gain = 882.188
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                1x1|                2x2|                4x4|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+|       East|                1x1|                1x1|                8x8|
+|___________|___________________|___________________|___________________|
+|       West|                2x2|                1x1|                8x8|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1961d96c8
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:02:32 . Memory (MB): peak = 4629.109 ; gain = 882.188
+Phase 4.3 Placer Reporting | Checksum: 1961d96c8
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:02:32 . Memory (MB): peak = 4629.109 ; gain = 882.188
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 4629.109 ; gain = 0.000
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:02:32 . Memory (MB): peak = 4629.109 ; gain = 882.188
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1c2c5532c
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:02:32 . Memory (MB): peak = 4629.109 ; gain = 882.188
+Ending Placer Task | Checksum: 12c74bb1a
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:02:32 . Memory (MB): peak = 4629.109 ; gain = 882.188
+INFO: [Common 17-83] Releasing license: Implementation
+184 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:19 ; elapsed = 00:02:34 . Memory (MB): peak = 4629.109 ; gain = 882.188
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 4629.109 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 4629.109 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file design_1_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 4629.109 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_placed.rpt -pb design_1_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 4629.109 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 4629.109 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+193 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 4629.109 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 4629.109 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 4629.109 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 79449986 ConstDB: 0 ShapeSum: 87e838f5 RouteDB: 2b47e89f
+Nodegraph reading from file.  Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.905 . Memory (MB): peak = 4629.109 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 849bce6f NumContArr: 21b3fb60 Constraints: c04c6ef1 Timing: 0
+Phase 1 Build RT Design | Checksum: 1669c38c0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 4634.383 ; gain = 5.273
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 1669c38c0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 4638.008 ; gain = 8.898
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 1669c38c0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 4638.008 ; gain = 8.898
+INFO: [Route 35-445] Local routing congestion detected. At least 568 CLBs have high pin utilization, which can impact runtime and timing closure. Top ten contiguous CLBs with high pin utilization are:
+	[CLEM_X17Y268 -> CLEM_X17Y240]
+	[CLEM_X13Y267 -> CLEM_X13Y259]
+	[CLEM_X13Y254 -> CLEM_X13Y246]
+	[CLEM_X14Y269 -> CLEM_X14Y261]
+	[CLEM_X8Y248 -> CLEM_X8Y243]
+	[CLEM_X9Y248 -> CLEM_X9Y243]
+	[CLEM_X8Y278 -> CLEM_X8Y275]
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 2940be5d3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 4678.621 ; gain = 49.512
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1f43d136e
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 4680.719 ; gain = 51.609
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.768  | TNS=0.000  | WHS=-1.818 | THS=-2371.787|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 183c95569
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:40 . Memory (MB): peak = 4701.895 ; gain = 72.785
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.768  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 2653b28e7
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:40 . Memory (MB): peak = 4701.895 ; gain = 72.785
+INFO: [Route 35-445] Local routing congestion detected. At least 568 CLBs have high pin utilization, which can impact runtime and timing closure. Top ten contiguous CLBs with high pin utilization are:
+	[CLEM_X17Y268 -> CLEM_X17Y240]
+	[CLEM_X13Y267 -> CLEM_X13Y259]
+	[CLEM_X13Y254 -> CLEM_X13Y246]
+	[CLEM_X14Y269 -> CLEM_X14Y261]
+	[CLEM_X8Y248 -> CLEM_X8Y243]
+	[CLEM_X9Y248 -> CLEM_X9Y243]
+	[CLEM_X8Y278 -> CLEM_X8Y275]
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00881058 %
+  Global Horizontal Routing Utilization  = 0.00194705 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 55333
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 35629
+  Number of Partially Routed Nets     = 19704
+  Number of Node Overlaps             = 22
+
+Phase 2 Router Initialization | Checksum: 1f75c14f1
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:41 . Memory (MB): peak = 4714.164 ; gain = 85.055
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1f75c14f1
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:41 . Memory (MB): peak = 4714.164 ; gain = 85.055
+Phase 3 Initial Routing | Checksum: 18b91402e
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:07:04 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+INFO: [Route 35-449] Initial Estimated Congestion
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+|           |___________________|___________________|___________________|
+| Direction | Size   | % Tiles  | Size   | % Tiles  | Size   | % Tiles  |
+|___________|________|__________|________|__________|________|__________|
+|      NORTH|     4x4|      0.19|     4x4|      0.40|     8x8|      0.78|
+|___________|________|__________|________|__________|________|__________|
+|      SOUTH|     4x4|      0.25|     1x1|      0.06|   16x16|      1.04|
+|___________|________|__________|________|__________|________|__________|
+|       EAST|     8x8|      0.46|     2x2|      0.09|   16x16|      1.60|
+|___________|________|__________|________|__________|________|__________|
+|       WEST|     8x8|      0.40|     2x2|      0.06|   16x16|      1.51|
+|___________|________|__________|________|__________|________|__________|
+Congestion Report
+SHORT Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+SOUTH
+	INT_X24Y284->INT_X27Y319 (CLEM_X24Y284->CLEL_R_X27Y319)
+	INT_X24Y312->INT_X31Y319 (CLEM_X24Y312->DSP_X31Y315)
+	INT_X24Y311->INT_X31Y318 (CLEM_X24Y311->DSP_X31Y315)
+	INT_X24Y310->INT_X31Y317 (CLEM_X24Y310->DSP_X31Y315)
+	INT_X24Y309->INT_X31Y316 (CLEM_X24Y309->DSP_X31Y315)
+EAST
+	INT_X16Y312->INT_X31Y327 (CLEL_L_X16Y312->DSP_X31Y325)
+	INT_X16Y311->INT_X31Y326 (CLEL_L_X16Y311->DSP_X31Y325)
+	INT_X16Y310->INT_X31Y325 (CLEL_L_X16Y310->DSP_X31Y325)
+	INT_X16Y309->INT_X31Y324 (CLEL_L_X16Y309->DSP_X31Y320)
+WEST
+	INT_X20Y308->INT_X35Y323 (CLEM_X20Y308->CLEL_R_X35Y323)
+	INT_X16Y309->INT_X31Y324 (CLEL_L_X16Y309->DSP_X31Y320)
+	INT_X16Y308->INT_X31Y323 (CLEL_L_X16Y308->DSP_X31Y320)
+	INT_X16Y307->INT_X31Y322 (CLEL_L_X16Y307->DSP_X31Y320)
+	INT_X16Y306->INT_X31Y321 (CLEL_L_X16Y306->DSP_X31Y320)
+INFO: [Route 35-580] Design has 180 pins with tight setup and hold constraints.
+
+The top 5 pins with tight setup and hold constraints:
+
++====================+===================+===============================================================================================================================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                                                                                                                           |
++====================+===================+===============================================================================================================================================+
+| clk_pl_0           | clk_pl_0          | design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/x_pa_clic_ctrl/clic_int_il_raw_reg[4]/D              |
+| clk_pl_0           | clk_pl_0          | design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/x_pa_clic_ctrl/clic_int_il_raw_reg[5]/D              |
+| clk_pl_0           | clk_pl_0          | design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/x_pa_clic_ctrl/clic_int_il_raw_reg[6]/D              |
+| clk_pl_0           | clk_pl_0          | design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/x_pa_clic_ctrl/clic_int_il_raw_reg[7]/D              |
+| clk_pl_0           | clk_pl_0          | design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/INT_KID[18].KID_TRUE.x_pa_clic_kid/int_pending_reg/D |
++--------------------+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+
+File with complete list of pins: tight_setup_hold_pins.txt
+
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 22120
+ Number of Nodes with overlaps = 2382
+ Number of Nodes with overlaps = 457
+ Number of Nodes with overlaps = 116
+ Number of Nodes with overlaps = 46
+ Number of Nodes with overlaps = 20
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-7.980 | TNS=-6714.477| WHS=-0.329 | THS=-52.166|
+
+Phase 4.1 Global Iteration 0 | Checksum: 213e6165a
+
+Time (s): cpu = 00:07:06 ; elapsed = 00:10:33 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 531
+ Number of Nodes with overlaps = 71
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.203 | TNS=-1251.134| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 23ba2eccd
+
+Time (s): cpu = 00:07:13 ; elapsed = 00:10:51 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 546
+ Number of Nodes with overlaps = 89
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-2.418 | TNS=-106.544| WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 2019d75de
+
+Time (s): cpu = 00:07:23 ; elapsed = 00:11:25 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 4.4 Global Iteration 3
+ Number of Nodes with overlaps = 187
+ Number of Nodes with overlaps = 26
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.498 | TNS=-28.124| WHS=N/A    | THS=N/A    |
+
+Phase 4.4 Global Iteration 3 | Checksum: 1cc53f399
+
+Time (s): cpu = 00:07:43 ; elapsed = 00:12:00 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 4.5 Global Iteration 4
+ Number of Nodes with overlaps = 228
+ Number of Nodes with overlaps = 29
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.236 | TNS=-22.471| WHS=N/A    | THS=N/A    |
+
+Phase 4.5 Global Iteration 4 | Checksum: 233e5afff
+
+Time (s): cpu = 00:08:03 ; elapsed = 00:12:28 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 4.6 Global Iteration 5
+ Number of Nodes with overlaps = 117
+ Number of Nodes with overlaps = 20
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.247 | TNS=-22.715| WHS=N/A    | THS=N/A    |
+
+Phase 4.6 Global Iteration 5 | Checksum: 1beaed4ba
+
+Time (s): cpu = 00:08:12 ; elapsed = 00:12:43 . Memory (MB): peak = 5041.332 ; gain = 412.223
+Phase 4 Rip-up And Reroute | Checksum: 1beaed4ba
+
+Time (s): cpu = 00:08:12 ; elapsed = 00:12:43 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 24cf84e8a
+
+Time (s): cpu = 00:08:20 ; elapsed = 00:12:57 . Memory (MB): peak = 5041.332 ; gain = 412.223
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.236 | TNS=-22.471| WHS=0.010  | THS=0.000  |
+
+
+Phase 5.1.2 Update Timing
+Phase 5.1.2 Update Timing | Checksum: 2d1c49618
+
+Time (s): cpu = 00:08:25 ; elapsed = 00:13:06 . Memory (MB): peak = 5041.332 ; gain = 412.223
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.236 | TNS=-22.471| WHS=0.010  | THS=0.000  |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1d6559090
+
+Time (s): cpu = 00:08:28 ; elapsed = 00:13:10 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1d6559090
+
+Time (s): cpu = 00:08:28 ; elapsed = 00:13:11 . Memory (MB): peak = 5041.332 ; gain = 412.223
+Phase 5 Delay and Skew Optimization | Checksum: 1d6559090
+
+Time (s): cpu = 00:08:28 ; elapsed = 00:13:11 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1cd3ccb3a
+
+Time (s): cpu = 00:08:35 ; elapsed = 00:13:21 . Memory (MB): peak = 5041.332 ; gain = 412.223
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.072  | TNS=0.000  | WHS=-0.063 | THS=-0.063 |
+
+Phase 6.1 Hold Fix Iter | Checksum: 3128cace5
+
+Time (s): cpu = 00:08:36 ; elapsed = 00:13:22 . Memory (MB): peak = 5041.332 ; gain = 412.223
+Phase 6 Post Hold Fix | Checksum: 29e413555
+
+Time (s): cpu = 00:08:36 ; elapsed = 00:13:23 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 6.18318 %
+  Global Horizontal Routing Utilization  = 6.42432 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 2d47d7d69
+
+Time (s): cpu = 00:08:37 ; elapsed = 00:13:24 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2d47d7d69
+
+Time (s): cpu = 00:08:37 ; elapsed = 00:13:24 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2d47d7d69
+
+Time (s): cpu = 00:08:39 ; elapsed = 00:13:34 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 10 Resolve XTalk
+Phase 10 Resolve XTalk | Checksum: 2d47d7d69
+
+Time (s): cpu = 00:08:40 ; elapsed = 00:13:35 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Phase 11 Post Router Timing
+
+Phase 11.1 Update Timing
+Phase 11.1 Update Timing | Checksum: 324a80cac
+
+Time (s): cpu = 00:08:46 ; elapsed = 00:13:44 . Memory (MB): peak = 5041.332 ; gain = 412.223
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.072  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 324a80cac
+
+Time (s): cpu = 00:08:46 ; elapsed = 00:13:44 . Memory (MB): peak = 5041.332 ; gain = 412.223
+Time taken to check if laguna hold fix is required (in secs): 0
+Skip PhysOpt in Router because non-negative WNS value: 1.05605e-10 .
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:08:58 ; elapsed = 00:14:02 . Memory (MB): peak = 5041.332 ; gain = 412.223
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+219 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:08:59 ; elapsed = 00:14:04 . Memory (MB): peak = 5041.332 ; gain = 412.223
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 5041.332 ; gain = 0.000
+report_design_analysis: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 5041.332 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 5041.332 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+Command: report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 5041.332 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 5041.332 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+231 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 5041.332 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file design_1_wrapper_route_status.rpt -pb design_1_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file design_1_wrapper_timing_summary_routed.rpt -pb design_1_wrapper_timing_summary_routed.pb -rpx design_1_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file design_1_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file design_1_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 5041.332 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file design_1_wrapper_bus_skew_routed.rpt -pb design_1_wrapper_bus_skew_routed.pb -rpx design_1_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 11 19:15:54 2024...

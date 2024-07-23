@@ -1,0 +1,48 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.413559",
+   "Default View_TopLeft":"-222,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_i_pad_uart0_sin -pg 1 -lvl 0 -x 0 -y 690 -defaultsOSRD
+preplace port port-id_o_pad_uart0_sout -pg 1 -lvl 8 -x 2500 -y 550 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 5 -x 1520 -y 590 -defaultsOSRD
+preplace inst ahblite_axi_bridge_0 -pg 1 -lvl 3 -x 760 -y 600 -defaultsOSRD
+preplace inst ahblite_axi_bridge_1 -pg 1 -lvl 3 -x 760 -y 200 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 6 -x 2000 -y 630 -defaultsOSRD
+preplace inst axi2rst_0 -pg 1 -lvl 7 -x 2330 -y 650 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 100 -y 610 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 3 -x 760 -y 890 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 1 -x 100 -y 750 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 2 -x 370 -y 1080 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1070 -y 560 -defaultsOSRD
+preplace inst soc_e906_0 -pg 1 -lvl 2 -x 370 -y 620 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 7 -x 2330 -y 810 -defaultsOSRD
+preplace netloc ARESETN_1 1 2 5 590 990 910 410 NJ 410 1840 770 2170J
+preplace netloc EGRET_cfg_0_egret_rstn 1 1 7 200 760 600J 400 NJ 400 NJ 400 1850J 750 2150J 540 2480
+preplace netloc ahblite_axi_bridge_0_s_ahb_hready_out 1 2 1 620 560n
+preplace netloc ahblite_axi_bridge_1_s_ahb_hready_out 1 2 1 540 160n
+preplace netloc soc_e906_0_my_dahbl_pad_hsel 1 2 1 N 700
+preplace netloc soc_e906_0_my_iahbl_pad_hsel 1 2 1 550 300n
+preplace netloc xlconstant_1_dout 1 1 1 NJ 610
+preplace netloc zynq_ultra_ps_e_0_pl_clk1 1 1 6 190 820 580 970 920 710 1220 680 1830 760 2180
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 5 200 980 NJ 980 NJ 980 NJ 980 1820
+preplace netloc i_pad_uart0_sin_1 1 0 7 NJ 690 180 810 NJ 810 NJ 810 NJ 810 NJ 810 2150J
+preplace netloc soc_e906_0_o_pad_uart0_sout 1 2 6 560 800 NJ 800 NJ 800 NJ 800 2160 550 NJ
+preplace netloc axi_interconnect_1_M00_AXI 1 6 1 N 630
+preplace netloc soc_e906_0_data_ahbl 1 2 1 610 460n
+preplace netloc soc_e906_0_instr_ahbl 1 2 1 570 60n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 5 1 N 570
+preplace netloc ahblite_axi_bridge_1_M_AXI 1 3 1 900 200n
+preplace netloc ahblite_axi_bridge_0_M_AXI 1 3 1 900 490n
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 N 560
+levelinfo -pg 1 0 100 370 760 1070 1520 2000 2330 2500
+pagesize -pg 1 -db -bbox -sgen -160 0 2670 1180
+"
+}
+{
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"22",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

@@ -1,0 +1,264 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Jul 11 20:33:37 2024
+| Host         : DESKTOP-1H1RL0L running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xczu7ev-ffvc1156-2-e
+| Speed File   : -2
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 43
++-----------+------------------+--------------------------------+------------+
+| Rule      | Severity         | Description                    | Violations |
++-----------+------------------+--------------------------------+------------+
+| TIMING-14 | Critical Warning | LUT on the clock tree          | 1          |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell    | 6          |
+| LUTAR-1   | Warning          | LUT drives async reset alert   | 1          |
+| TIMING-18 | Warning          | Missing input or output delay  | 2          |
+| TIMING-20 | Warning          | Non-clocked latch              | 32         |
+| LATCH-1   | Advisory         | Existing latches in the design | 1          |
++-----------+------------------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-14#1 Critical Warning
+LUT on the clock tree  
+The LUT design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/clic_clk_buf/clicintattr_shv_i_6 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_clkrst_top/x_pa_rst_top/sys_apb_rst_ff_1st_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_dtu_top/x_pa_dtu_cdc/x_pa_tdt_dm_dtu_itr_vld_cdc/src_lvl_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_dtu_top/x_pa_dtu_cdc/x_pa_tdt_dm_dtu_itr_vld_cdc/src_sync1_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_dtu_top/x_pa_dtu_cdc/x_pa_tdt_dm_dtu_itr_vld_cdc/src_sync2_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_dtu_top/x_pa_dtu_cdc/x_pa_tdt_dm_dtu_itr_vld_cdc/src_sync3_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_dtu_top/x_pa_dtu_cdc/x_pa_tdt_dm_dtu_itr_vld_cdc/src_sync4_reg/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_sel[0]_INST_0, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[10]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[11]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[12]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[13]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[14]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[15]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[6]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[7]/CLR,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[8]/CLR
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/iTARGET_reg[9]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on i_pad_uart0_sin relative to clock(s) clk_pl_0
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on o_pad_uart0_sout relative to clock(s) clk_pl_0
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[0] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[10] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[11] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[12] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[13] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[14] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[15] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[16] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[17] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[18] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[19] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[1] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[20] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[21] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[22] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[23] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[24] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[25] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[26] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[27] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[28] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[29] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[2] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[30] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[31] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[3] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[4] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[5] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[6] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[7] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[8] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[9] cannot be properly analyzed as its control pin design_1_i/soc_e906_0/inst/x_apb/x_pmu/pmu_apb_prdata_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 33 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

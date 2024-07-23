@@ -1,0 +1,23 @@
+List of CLB Tiles
+CLEL_L_X47Y70
+CLEL_R_X47Y70
+CLEL_L_X56Y88
+CLEL_R_X56Y88
+CLEM_X54Y97
+CLEM_X52Y154
+CLEL_R_X52Y154
+CLEM_X49Y121
+CLEL_R_X49Y121
+CLEM_X46Y72
+CLEL_R_X46Y72
+
+List of Congested Nets
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_idu_top/x_pa_idu_dp/dp_ex1_src1_reg[31]_0[3]
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_dc/dc_xx_addr[15]
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_dc/dc_xx_addr[4]
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_stb/x_pa_lsu_stb_entry_0/stb_entry_addr_reg[31]_0[16]
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_lsu_top/x_pa_lsu_vb/x_pa_lsu_vb_entry_1/vb_entry_addr_reg_n_0_[0]
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/x_pa_clic_ctrl/x_pa_clic_cpuif_2cycle/cpuif_exit_reg_0
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_tcipif_top/x_pa_clic_top/x_pa_clic_ctrl/x_pa_clic_cpuif_2cycle/cpuif_curid_reg[3]_2[1]
+design_1_i/soc_e906_0/inst/x_cpu_sub_system_ahb/x_e906_top/x_pa_core_top/x_pa_core/x_pa_cp0_top/x_pa_cp0_regs/x_pa_cp0_trap_csr/mcnten_hpm16_reg_0[8]
+

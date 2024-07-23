@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:E:/im_always_learning/E906_zcu/vivado_e906_zcu/vivado_e906_zcu.srcs/constrs_1/new/1.xdc rfile:../../../vivado_e906_zcu.srcs/constrs_1/new/1.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN C19 [get_ports i_pad_uart0_sin]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN A20 [get_ports o_pad_uart0_sout]

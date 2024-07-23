@@ -1,0 +1,1338 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "100000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "design_1_i/ila_0",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "BE177176557E59FEACE2FE04795A2B22",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/soc_e906_0_o_pad_uart0_sout",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/i_pad_uart0_sin_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "design_1_i/system_ila_0/inst/ila_lib",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 1,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "CD4C83C823A6596D99AD09BE1335C6B0",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_htrans_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_htrans_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_htrans_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hsize_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hsize_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hsize_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hsize_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hrdata_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hresp_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hresp_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hresp_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwrite_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hready_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_haddr_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hwdata_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hprot_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hprot_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hprot_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hprot_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hprot_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hmastlock_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hburst_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hburst_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hburst_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_0_AHBLITE_hburst_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_htrans_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_htrans_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_htrans_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hsize_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hsize_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hsize_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hsize_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hrdata_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hresp_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hresp_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hresp_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwrite_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 18,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hready_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 19,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_haddr_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe18",
+                                "id": 20,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 18,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[31]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[30]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[29]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[28]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[27]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[26]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[25]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[24]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[23]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[22]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[21]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[20]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[19]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[18]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[17]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[16]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[15]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[14]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[13]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[12]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[11]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[10]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[9]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[8]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[7]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[6]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[5]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[4]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hwdata_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe19",
+                                "id": 21,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 19,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hprot_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hprot_1[3]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hprot_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hprot_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hprot_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe20",
+                                "id": 22,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 20,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hmastlock_1",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe21",
+                                "id": 23,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 21,
+                                "nets": [
+                                    {
+                                        "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hburst_1",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hburst_1[2]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hburst_1[1]"
+                                            },
+                                            {
+                                                "name": "design_1_i/system_ila_0/inst/SLOT_1_AHBLITE_hburst_1[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "bus_interfaces": [
+                            {
+                                "name": "SLOT_0_AHBLITE",
+                                "vlnv": "xilinx.com:interface:ahblite:2.0",
+                                "connectedBus": "soc_e906_0_instr_ahbl",
+                                "port_maps": [
+                                    {
+                                        "logical_port": "HADDR",
+                                        "physical_pin": {
+                                            "id": 8,
+                                            "name": "probe6",
+                                            "leftBit": 0,
+                                            "width": 32
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HBURST",
+                                        "physical_pin": {
+                                            "id": 12,
+                                            "name": "probe10",
+                                            "leftBit": 0,
+                                            "width": 3
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HMASTLOCK",
+                                        "physical_pin": {
+                                            "id": 11,
+                                            "name": "probe9",
+                                            "leftBit": 0,
+                                            "width": 1
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HPROT",
+                                        "physical_pin": {
+                                            "id": 10,
+                                            "name": "probe8",
+                                            "leftBit": 0,
+                                            "width": 4
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HRDATA",
+                                        "physical_pin": {
+                                            "id": 4,
+                                            "name": "probe2",
+                                            "leftBit": 0,
+                                            "width": 32
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HREADY",
+                                        "physical_pin": {
+                                            "id": 7,
+                                            "name": "probe5",
+                                            "leftBit": 0,
+                                            "width": 1
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HRESP",
+                                        "physical_pin": {
+                                            "id": 5,
+                                            "name": "probe3",
+                                            "leftBit": 0,
+                                            "width": 2
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HSIZE",
+                                        "physical_pin": {
+                                            "id": 3,
+                                            "name": "probe1",
+                                            "leftBit": 0,
+                                            "width": 3
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HTRANS",
+                                        "physical_pin": {
+                                            "id": 2,
+                                            "name": "probe0",
+                                            "leftBit": 0,
+                                            "width": 2
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HWDATA",
+                                        "physical_pin": {
+                                            "id": 9,
+                                            "name": "probe7",
+                                            "leftBit": 0,
+                                            "width": 32
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HWRITE",
+                                        "physical_pin": {
+                                            "id": 6,
+                                            "name": "probe4",
+                                            "leftBit": 0,
+                                            "width": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "SLOT_1_AHBLITE",
+                                "vlnv": "xilinx.com:interface:ahblite:2.0",
+                                "connectedBus": "soc_e906_0_data_ahbl",
+                                "port_maps": [
+                                    {
+                                        "logical_port": "HADDR",
+                                        "physical_pin": {
+                                            "id": 19,
+                                            "name": "probe17",
+                                            "leftBit": 0,
+                                            "width": 32
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HBURST",
+                                        "physical_pin": {
+                                            "id": 23,
+                                            "name": "probe21",
+                                            "leftBit": 0,
+                                            "width": 3
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HMASTLOCK",
+                                        "physical_pin": {
+                                            "id": 22,
+                                            "name": "probe20",
+                                            "leftBit": 0,
+                                            "width": 1
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HPROT",
+                                        "physical_pin": {
+                                            "id": 21,
+                                            "name": "probe19",
+                                            "leftBit": 0,
+                                            "width": 4
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HRDATA",
+                                        "physical_pin": {
+                                            "id": 15,
+                                            "name": "probe13",
+                                            "leftBit": 0,
+                                            "width": 32
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HREADY",
+                                        "physical_pin": {
+                                            "id": 18,
+                                            "name": "probe16",
+                                            "leftBit": 0,
+                                            "width": 1
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HRESP",
+                                        "physical_pin": {
+                                            "id": 16,
+                                            "name": "probe14",
+                                            "leftBit": 0,
+                                            "width": 2
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HSIZE",
+                                        "physical_pin": {
+                                            "id": 14,
+                                            "name": "probe12",
+                                            "leftBit": 0,
+                                            "width": 3
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HTRANS",
+                                        "physical_pin": {
+                                            "id": 13,
+                                            "name": "probe11",
+                                            "leftBit": 0,
+                                            "width": 2
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HWDATA",
+                                        "physical_pin": {
+                                            "id": 20,
+                                            "name": "probe18",
+                                            "leftBit": 0,
+                                            "width": 32
+                                        }
+                                    },
+                                    {
+                                        "logical_port": "HWRITE",
+                                        "physical_pin": {
+                                            "id": 17,
+                                            "name": "probe15",
+                                            "leftBit": 0,
+                                            "width": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

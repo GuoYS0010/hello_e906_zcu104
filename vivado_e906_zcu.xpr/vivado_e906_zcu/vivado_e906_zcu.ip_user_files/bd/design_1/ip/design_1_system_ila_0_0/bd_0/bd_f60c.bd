@@ -1,0 +1,356 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7CFF043AA8319CB7",
+      "design_src": "SBD",
+      "device": "xczu7ev-ffvc1156-2-e",
+      "name": "bd_f60c",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "scoped": "true",
+      "synth_flow_mode": "None",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ila_lib": ""
+    },
+    "interface_ports": {
+      "SLOT_0_AHBLITE": {
+        "mode": "Monitor",
+        "vlnv_bus_definition": "xilinx.com:interface:ahblite:2.0",
+        "vlnv": "xilinx.com:interface:ahblite_rtl:2.0",
+        "port_maps": {
+          "HTRANS": {
+            "physical_name": "SLOT_0_AHBLITE_htrans",
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "HSIZE": {
+            "physical_name": "SLOT_0_AHBLITE_hsize",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "HRDATA": {
+            "physical_name": "SLOT_0_AHBLITE_hrdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "HRESP": {
+            "physical_name": "SLOT_0_AHBLITE_hresp",
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "HWRITE": {
+            "physical_name": "SLOT_0_AHBLITE_hwrite",
+            "direction": "I"
+          },
+          "HREADY": {
+            "physical_name": "SLOT_0_AHBLITE_hready",
+            "direction": "I"
+          },
+          "HADDR": {
+            "physical_name": "SLOT_0_AHBLITE_haddr",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "HWDATA": {
+            "physical_name": "SLOT_0_AHBLITE_hwdata",
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "HPROT": {
+            "physical_name": "SLOT_0_AHBLITE_hprot",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "HMASTLOCK": {
+            "physical_name": "SLOT_0_AHBLITE_hmastlock",
+            "direction": "I"
+          },
+          "HBURST": {
+            "physical_name": "SLOT_0_AHBLITE_hburst",
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_zynq_ultra_ps_e_0_0_pl_clk0",
+            "value_src": "default_prop"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "SLOT_0_AHBLITE_htrans": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "SLOT_0_AHBLITE_hsize": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "SLOT_0_AHBLITE_hrdata": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "SLOT_0_AHBLITE_hresp": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "SLOT_0_AHBLITE_hwrite": {
+        "direction": "I"
+      },
+      "SLOT_0_AHBLITE_hready": {
+        "direction": "I"
+      },
+      "SLOT_0_AHBLITE_haddr": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "SLOT_0_AHBLITE_hwdata": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "SLOT_0_AHBLITE_hprot": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "SLOT_0_AHBLITE_hmastlock": {
+        "direction": "I"
+      },
+      "SLOT_0_AHBLITE_hburst": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      }
+    },
+    "components": {
+      "ila_lib": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "bd_f60c_ila_lib_0",
+        "xci_path": "ip\\ip_0\\bd_f60c_ila_lib_0.xci",
+        "inst_hier_path": "ila_lib",
+        "parameters": {
+          "ALL_PROBE_SAME_MU": {
+            "value": "TRUE"
+          },
+          "ALL_PROBE_SAME_MU_CNT": {
+            "value": "1"
+          },
+          "C_ADV_TRIGGER": {
+            "value": "FALSE"
+          },
+          "C_DATA_DEPTH": {
+            "value": "4096"
+          },
+          "C_EN_STRG_QUAL": {
+            "value": "0"
+          },
+          "C_EN_TIME_TAG": {
+            "value": "0"
+          },
+          "C_ILA_CLK_FREQ": {
+            "value": "100000000"
+          },
+          "C_INPUT_PIPE_STAGES": {
+            "value": "0"
+          },
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "11"
+          },
+          "C_PROBE0_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE0_WIDTH": {
+            "value": "2"
+          },
+          "C_PROBE10_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE10_WIDTH": {
+            "value": "3"
+          },
+          "C_PROBE1_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE1_WIDTH": {
+            "value": "3"
+          },
+          "C_PROBE2_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE2_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE3_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE3_WIDTH": {
+            "value": "2"
+          },
+          "C_PROBE4_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE4_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE5_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE5_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE6_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE6_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE7_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE7_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE8_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE8_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE9_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE9_WIDTH": {
+            "value": "1"
+          },
+          "C_TIME_TAG_WIDTH": {
+            "value": "32"
+          },
+          "C_TRIGIN_EN": {
+            "value": "false"
+          },
+          "C_TRIGOUT_EN": {
+            "value": "false"
+          },
+          "C_XLNX_HW_PROBE_INFO": {
+            "value": "DEFAULT"
+          }
+        }
+      }
+    },
+    "nets": {
+      "SLOT_0_AHBLITE_haddr_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_haddr",
+          "ila_lib/probe6"
+        ]
+      },
+      "SLOT_0_AHBLITE_hburst_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hburst",
+          "ila_lib/probe10"
+        ]
+      },
+      "SLOT_0_AHBLITE_hmastlock_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hmastlock",
+          "ila_lib/probe9"
+        ]
+      },
+      "SLOT_0_AHBLITE_hprot_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hprot",
+          "ila_lib/probe8"
+        ]
+      },
+      "SLOT_0_AHBLITE_hrdata_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hrdata",
+          "ila_lib/probe2"
+        ]
+      },
+      "SLOT_0_AHBLITE_hready_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hready",
+          "ila_lib/probe5"
+        ]
+      },
+      "SLOT_0_AHBLITE_hresp_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hresp",
+          "ila_lib/probe3"
+        ]
+      },
+      "SLOT_0_AHBLITE_hsize_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hsize",
+          "ila_lib/probe1"
+        ]
+      },
+      "SLOT_0_AHBLITE_htrans_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_htrans",
+          "ila_lib/probe0"
+        ]
+      },
+      "SLOT_0_AHBLITE_hwdata_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hwdata",
+          "ila_lib/probe7"
+        ]
+      },
+      "SLOT_0_AHBLITE_hwrite_1": {
+        "ports": [
+          "SLOT_0_AHBLITE_hwrite",
+          "ila_lib/probe4"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "ila_lib/clk"
+        ]
+      }
+    }
+  }
+}
